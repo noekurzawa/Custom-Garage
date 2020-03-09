@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=large.css.map */
+nav {
+  height: 5.6rem;
+}
+
+header .carousel-item {
+  height: 600px !important;
+}
+
+header .carousel-img-one {
+  background-image: url("../img/nissan-skyline-3546824.jpg");
+}
+
+header .carousel-img-two {
+  background-image: url("../img/car-1081742.jpg");
+}
+
+header .carousel-img-three {
+  background-image: url("../img/nurburgring-4122443.jpg");
+}
+
+.home-passion {
+  height: 300px;
+  background-image: url("../img/sunset-685927.jpg");
+}
+/*# sourceMappingURL=large.css.map */

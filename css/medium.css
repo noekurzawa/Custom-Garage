@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=medium.css.map */
+header .carousel-img-one {
+  background-image: url("../img/nissan-skyline-3546824_1920.jpg");
+}
+
+header .carousel-img-two {
+  background-image: url("../img/car-1081742_1920.jpg");
+}
+
+header .carousel-img-three {
+  background-image: url("../img/nurburgring-4122443_1920.jpg");
+}
+
+.home-passion {
+  background-image: url("../img/sunset-685927_1920.jpg");
+}
+/*# sourceMappingURL=medium.css.map */
