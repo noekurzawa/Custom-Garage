@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
 }
 
 body {
@@ -88,5 +88,37 @@ header .carousel-img-three {
   background-position: center;
   background-size: cover;
   z-index: 0;
+}
+
+.top-hero {
+  position: relative;
+  margin-top: 5rem;
+  height: 20rem;
+  background-image: url("/img/highway-2025863_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+.img-fluid {
+  height: 200px;
+  background-image: url("/img/ferrari-458-speciale-3173661_1280.jpg");
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
