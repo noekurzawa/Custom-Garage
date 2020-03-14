@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=small.css.map */
+.about-info .text-box-left {
+  padding-right: 3rem;
+}
+
+.about-info .text-box-right {
+  padding-left: 3rem;
+}
+
+.about-box-image .about-engine-img {
+  padding: 0 2rem;
+}
+/*# sourceMappingURL=small.css.map */

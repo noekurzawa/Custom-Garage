@@ -115,10 +115,7 @@ header .carousel-img-three {
   text-transform: uppercase;
 }
 
-.img-fluid {
-  height: 200px;
-  background-image: url("/img/ferrari-458-speciale-3173661_1280.jpg");
-  background-position: center;
-  background-size: cover;
+.about-info .text-box-right {
+  text-align: right;
 }
 /*# sourceMappingURL=main.css.map */

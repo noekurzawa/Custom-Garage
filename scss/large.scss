@@ -24,3 +24,43 @@ header{
     height: 300px;
     background-image: url("../img/sunset-685927.jpg");
 }
+
+.about-info{
+    .about-engine-img, .text-box-left, .text-box-right{
+        transform: skew(-25deg);
+    }
+
+    .big-box-left-right{
+        padding: 0 4rem;
+    }
+
+
+    .about-box-image{
+        display: flex;
+        justify-content: center;
+
+        .about-engine-img{
+            padding: 0;
+            height: 30rem;
+            width: 27rem;
+        }
+    }
+    
+    .text-box-left{
+        text-align: right;
+    }
+
+    .text-box-right{
+        text-align: left!important;
+    }
+}
+
+.about-info{
+    .text-box-left{
+        padding-right: 0;
+    }
+
+    .text-box-right{
+        padding-left: 0;
+    }
+}
