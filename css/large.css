@@ -55,6 +55,10 @@ header .carousel-img-three {
   text-align: left !important;
 }
 
+.about-info {
+  padding: 0 !important;
+}
+
 .about-info .text-box-left {
   padding-right: 0;
 }

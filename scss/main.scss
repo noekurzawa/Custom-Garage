@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 10px;
 }
 
-body{
+body {
     font-family: 'Oswald', sans-serif;
     font-size: 1.6rem;
 }
@@ -19,7 +19,7 @@ header {
     z-index: 0;
 }
 
-.hero-shadow{
+.hero-shadow {
     position: absolute;
     top: 0;
     width: 100%;
@@ -28,28 +28,28 @@ header {
     z-index: -1;
 }
 
-nav{
+nav {
     font-size: 2rem;
 
-    .navbar-toggler{
+    .navbar-toggler {
         font-size: 2.5rem;
     }
 
-    .navbar-brand{
-        font-size: 2rem;  
+    .navbar-brand {
+        font-size: 2rem;
     }
 }
 
 // HEADER
 
-#carouselExampleCaptions{
+#carouselExampleCaptions {
     margin-top: 5.6rem;
 }
 
-header{
+header {
     font-size: 2rem;
-    
-    .carousel-item{
+
+    .carousel-item {
         position: relative;
         height: 400px;
         background-position: center;
@@ -57,34 +57,34 @@ header{
         z-index: 0;
     }
 
-    .carousel-img-one{
+    .carousel-img-one {
         background-image: url("../img/nissan-skyline-3546824_1280.jpg");
     }
 
-    .carousel-img-two{
+    .carousel-img-two {
         background-image: url("../img/car-1081742_1280.jpg");
     }
 
-    .carousel-img-three{
+    .carousel-img-three {
         background-image: url("../img/nurburgring-4122443_1280.jpg");
     }
 }
 
-.home-boxes{
+.home-boxes {
     padding: 5rem 0;
 }
 
 .home-box {
-    i{
-    font-size: 4rem;
+    i {
+        font-size: 4rem;
     }
 
-    h3{
+    h3 {
         font-size: 2.6rem;
     }
 }
 
-.home-passion{
+.home-passion {
     position: relative;
     padding: 5rem 0;
     background-image: url("../img/sunset-685927_1280.jpg");
@@ -95,17 +95,17 @@ header{
 
 // ABOUT
 
-.top-hero{
+.top-hero {
     position: relative;
-    margin-top: 5rem;
-    height: 20rem;
+    margin-top: 5.6rem;
+    height: 30rem;
     background-image: url("/img/highway-2025863_1280.jpg");
     background-position: center;
     background-size: cover;
     z-index: 0;
 }
 
-.top-hero-text{
+.top-hero-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,9 +114,33 @@ header{
     text-transform: uppercase;
 }
 
-.about-info{
+.about-info {
+    padding: 3rem 0;
 
-    .text-box-right{
+    .text-box-right {
         text-align: right;
     }
+}
+
+.about-bottom {
+
+    i {
+        font-size: 3rem;
+    }
+
+    h1{
+        font-size:2.2rem;
+        font-weight: bold;
+    }
+}
+
+.top-blog{
+    position: relative;
+    margin-top: 5.6rem;
+    height: 30rem;
+    background-image: url("../img/services/third-section_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+
 }
