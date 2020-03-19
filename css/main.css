@@ -141,4 +141,12 @@ header .carousel-img-three {
   background-size: cover;
   z-index: 0;
 }
+
+.accordion .btn.btn-link {
+  font-size: 20px;
+}
+
+.main-card .hero-img {
+  z-index: -1;
+}
 /*# sourceMappingURL=main.css.map */
