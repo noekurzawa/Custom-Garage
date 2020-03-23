@@ -134,7 +134,7 @@ header {
     }
 }
 
-.top-blog{
+.top-bodyshop{
     position: relative;
     margin-top: 5.6rem;
     height: 30rem;
@@ -143,17 +143,61 @@ header {
     background-size: cover;
     z-index: 0;
 
+        .card-header:hover{
+            cursor: pointer;
+        }
 }
 
-
 .accordion{
-        .btn.btn-link{
-            font-size: 20px;
-        }
+    
+    .box{
+        height: 250px;
+        z-index: 0;
+        background-position: center;
+        background-size: cover;
     }
 
-    .main-card{
-        .hero-img{
-            z-index: -1;
-        }
+    .bodyshop-text{
+        font-size: 2.8rem;
     }
+
+    .btn.btn-link{
+        font-size: 1.6rem;
+    }
+
+    .box-one{  
+        background-image: url("../img/services/julian-hochgesang-xayPzzDCA4c-unsplash.jpg");  
+    }    
+
+    .box-two{
+        background-image: url("../img/services/denin-lawley-YWl9W8iBiUk-unsplash.jpg");
+    }
+
+    .box-three{
+        background-image: url("../img/services/car-sound-system-4786953_1280.jpg");
+    }
+
+    .box-four{
+        background-image: url("../img/services/serge-kutuzov-1K9-TbJWs2U-unsplash.jpg");
+    }
+
+    .hero-text{
+        z-index: 1;
+    }
+}
+
+.top-gallery{
+    position: relative;
+    margin-top: 5.6rem;
+    height: 30rem;
+    background-image: url("../img/gallery/project-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.main-gallery{
+    img{
+        height: 23rem;
+    }
+}
